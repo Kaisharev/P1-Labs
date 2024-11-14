@@ -3,13 +3,15 @@
 
 */
 
-#include "../stdneb/stdneb.h"
+#include "../stdneb/stdneb.c"
 #include <stdio.h>
 
-int main (int argc, char *argv[]){
+int main (){
     int number;
     printf ("Unesite prirodan broj N: ");
     scanf ("%d", &number);
 
     printf ("Najmanji prost broj veći od %d je %d", number, next_smallest_prime(number));
+    getchar();
+    getchar();
 }

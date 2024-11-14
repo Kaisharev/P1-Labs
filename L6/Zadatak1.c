@@ -20,7 +20,7 @@ int main (void){
     double sum = 0;
     int counter = 1;
     while (number >0){
-        sum+=poww((number%10), counter);
+        sum+=power_of((number%10), counter);
         counter++;
         number/=10;
     }

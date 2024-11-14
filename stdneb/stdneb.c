@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <limits.h>
 
-double poww (double argument, double exponent){
+double power_of (double argument, double exponent){
     double pow_value=1;
     for (int i = 1; i<=exponent; i++){
         pow_value*=argument;
